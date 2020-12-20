@@ -3,6 +3,7 @@ import Footer from '../components/footer'
 
 export default function Layout ({children}) {
   return (
+
     <>
       <Header/>
       <main>
@@ -10,5 +11,6 @@ export default function Layout ({children}) {
       </main>
       <Footer/>
     </>
+   
   )
 }
